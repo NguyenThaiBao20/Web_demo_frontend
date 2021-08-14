@@ -1,0 +1,122 @@
+/* PC */
+
+@media(min-width: 1024px) {
+    .header__mobile-list {
+        display: none;
+    }
+}
+
+
+/* Table */
+
+
+/* Mobile */
+
+@media (max-width: 740px) {
+    .grid {
+        width: 100%;
+    }
+    .nav-mobile {
+        display: flex;
+    }
+    .request {
+        display: none;
+    }
+    .logo {
+        height: 80px;
+    }
+    .header__mobile-list {
+        padding: 4px;
+    }
+    .header__mobile-link {
+        display: block;
+    }
+    .header__mobile-link i {
+        padding: 4px;
+        font-size: 1.8rem;
+    }
+    .nav__list {
+        display: none;
+    }
+    /* hero */
+    .hero {
+        height: auto;
+    }
+    .hero__container {
+        display: block;
+        padding: 0;
+    }
+    .hero__text {
+        padding: 70px 24px;
+    }
+    .hero__text-head {
+        margin-bottom: 24px;
+        font-size: 2.2rem;
+    }
+    .text-content {
+        display: block;
+    }
+    .btn-hero {
+        margin-top: 0;
+    }
+    /* feature */
+    .section__container {
+        padding: 70px 24px;
+    }
+    .section__text {
+        width: 100%;
+        text-align: center;
+    }
+    .section__text h2 {
+        font-size: 2rem;
+    }
+    .text-content {
+        font-size: 1rem;
+    }
+    .grid__column-full {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    .feature__content img {
+        margin-bottom: 30px;
+    }
+    .feature__item-head {
+        margin-bottom: 16px;
+    }
+    /* articles */
+    .articles__item-wrap {
+        height: auto;
+    }
+    .articles__space {
+        gap: 1rem;
+    }
+    .article__text {
+        padding: 30px 30px 40px 30px;
+    }
+    .articles__item-content-wrap {
+        text-align: initial;
+    }
+    /* footer */
+    .footer__wrap {
+        display: block;
+        text-align: center;
+    }
+    .footer__connect-list {
+        display: inline-flex;
+        margin-bottom: 30px;
+    }
+    .footer__help {
+        display: block;
+    }
+    .footer__help-content a {
+        margin-bottom: 15px;
+    }
+    .footer__address-btn {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .footer__address-content {
+        text-align: center;
+    }
+}
